@@ -1,0 +1,74 @@
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.office {
+  margin-bottom: 20px;
+}
+
+.address {
+  list-style: square;
+}
+
+.office:nth-child(2).address {
+  list-style: circle;
+}
+
+.contact-form {
+  margin-top: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 35%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #000000;
+}
+
+.banner {
+  width: 960px;
+  height: 275px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  display: block;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 20px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #3000f1;
+}
